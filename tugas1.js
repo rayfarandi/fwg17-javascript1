@@ -35,11 +35,11 @@ const biodata = {
   };
   
   // Contoh penggunaan
-  console.log(biodata.name);
-  console.log(biodata.age);
-  console.log(biodata.hobbies);
-  console.log(biodata.isMarried);
+  console.log(`Nama: `,biodata.name);
+  console.log(`Umur: `,biodata.age);
+  console.log(`Hobbies: `,biodata.hobbies);
+  console.log(`IsMarried: `,biodata.isMarried);
   console.log(biodata.schoolList);
   console.log(biodata.skills);
-  console.log(biodata.interestInCoding);
+  console.log(`interestInCoding: `,biodata.interestInCoding);
   
