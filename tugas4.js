@@ -1,3 +1,4 @@
+// Data yg disediakan
 let data = {
     id: 1,
     name: "Leanne Graham",
@@ -13,18 +14,18 @@ let data = {
     website: "hildegard.org",
   };
   
-  // Ubah data menggunakan spread operator
+  //A. Ubah data menggunakan spread operator
   const newData = {
     ...data,
     name: "Ray Farandi",
     email: "Rayfarandi1994@gmail.com",
     hobby: "Otomotif",
   };
-  
-  // Menggunakan destructuring untuk mengambil data "street" dan "city"
-  let { address: { street, city } } = newData;
-  
   console.log(newData);
-  console.log("Street:", street);
-  console.log("City:", city);
+  
+  //B. Menggunakan destructuring untuk mengambil data "street" dan "city"
+  let { street:jalan, suite:kamar }  = newData.address;
+  
+  console.log("Jalan:", jalan);
+  console.log("City:", kamar);
   
